@@ -1,0 +1,81 @@
+*{
+	box-sizing: border-box;
+}
+.welcome-section{
+	background: #DDDDDD;
+	border: 1px solid #DDDDDD;
+	overflow-y: hidden;
+}
+.about-me-section{
+	max-width: 1250px;
+	width: 100%;
+	margin: 50px auto;
+}
+.txt-right{
+	text-align: right;
+}
+.rapo{
+	font-family: 'ExtraBold';
+	font-size: 40px;
+	text-transform: capitalize;
+}
+.rapo span{
+	color: #0081FF;
+	font-size: 33px;
+}
+.number-01{
+	font-size: 158.3px;
+	font-family: 'ExtraBold';
+	transform: translate(-80px, -50px);
+	position: relative;
+}
+.number-01::after{
+	content: "about me";
+	position: absolute;
+	top: 40%;
+	transform: translateX(-185px);
+	font-size: 43px;
+	width: 223px;
+	font-family: 'ExtraBold';
+	color: #373737;
+	text-transform: capitalize;
+	letter-spacing: 1.3px;
+}
+.slide{
+	max-width: 650px;
+	width: 100%;
+	max-height: 650px;
+	height: 100%;
+}
+.hello-container{
+    max-width: 1100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    transform: translate(-100px, -250px);
+}
+.personal-information{
+	margin: auto;
+	transform: translateX(-30px);
+}
+.hi-span{
+	font-family: 'regular';
+	font-size: 49.7px;
+	text-transform: capitalize;
+	letter-spacing: 0.75px;
+}
+.lawyer-span{
+	font-family: 'regular';
+	font-size: 23.29px;
+	text-transform: capitalize;
+}
+.hello h1{
+	font-size: 64px;
+	text-transform: capitalize;
+	letter-spacing: 1.06px;
+	margin: 5px;
+}
+.social-address{
+	margin-top: 40px;
+}
