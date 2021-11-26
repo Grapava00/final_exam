@@ -1,0 +1,20 @@
+@media(max-width: 780px){
+.section--mainTxt{
+    margin-top: 20px;
+}
+.section--title{
+	font-size: 23.7px;
+}
+.section--strong{
+	font-size:37px;
+}
+.section--subtitle{
+	font-size: 15.29px;
+}
+.satisfied-clients p{
+    padding: 20px 120px 0 0;
+}
+.satisfied-clients-line{
+    padding-right: 45px;
+}
+}
