@@ -121,6 +121,7 @@ header{
 	display: flex;
 	justify-content: flex-end;
 	background-color:#DDDDDD ;
+	padding-bottom: 40px;
 }
 .satisfied-clients-line span{
 	height: 5px;
