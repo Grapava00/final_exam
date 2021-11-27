@@ -3,8 +3,9 @@ let images = [];
 let time = 5000;
 
 
-images[0]=  "images/personal_photos_introduction/my-picture2.png";
-images[1]=  "images/personal_photos_introduction/my-picture3.png";
+images[0]=  "images/header/my-picture2.png";
+images[1]=  "images/header/my-picture3.png";
+images[2]= "images/header/my-picture1.png";
 
 function changeImg() {
 	document.slide.src = images[i];
