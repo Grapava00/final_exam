@@ -142,6 +142,7 @@ color:#B3B3B3;
     margin:0 auto;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 /* about-content*/
 .about--description{
@@ -149,7 +150,6 @@ color:#B3B3B3;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    justify-content: center;
 }
 .about--description h2{
     font-size:40px ;
@@ -184,9 +184,11 @@ color:#B3B3B3;
 }
 
 /* about-progress bar container */
+.about--progress-icons{
+    margin-left: 70px;
+}
 .about--progress-container{
     width: 300px;
-    height: 200px;
 }
 .about--progress{
     width: 100%;
@@ -210,4 +212,20 @@ h3{
 }
 h3 span{
     color:#E93656;
+}
+
+/* about-icons */
+
+.about--icons{
+    margin-top: 40px;
+}
+.about--facebook{
+   display: inline-block;
+   padding: 15px;
+   /* background-color: red; */
+}
+.about--github{
+    display: inline-block;
+   padding: 15px;
+   /* background-color: red; */
 }
