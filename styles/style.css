@@ -110,6 +110,9 @@ color:#B3B3B3;
 	color:#212121;
 	margin-top: 8px;
 }
+.intro--icons{
+    margin-top: 20px;
+}
 
 /* header - satisfied */
 .satisfied--percent{
@@ -129,3 +132,53 @@ color:#B3B3B3;
 	border-radius: 28px;
 	background-color:#E93656;
 }
+
+/* about-section-container */
+.about-container{
+    max-width: 800px;
+    width: 100%;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: blue;
+}
+/* about-content*/
+.about--description{
+    max-width: 334px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+.about--description h2{
+    font-size:40px ;
+    font-family: 'GlacialIndifference-Bold';
+    color: #222222;
+    text-transform: capitalize;
+}
+.about--description .about-profession{
+    font-size:14px;
+    font-family: 'Muli';
+    color: #DAAE19;
+    text-transform: uppercase;
+    margin: 6px 0 33px 0;
+}
+.about--description .about--txt{
+    font-family: 'Muli';
+    font-size: 15px;
+    color:#555555;
+    margin-bottom: 60px;
+}
+.about--description .about--btn{
+    padding: 13px 40px 13px 50px;
+    font-family: 'GlacialIndifference-Bold';
+    font-size:15px;
+    color: white;
+    border: none;
+    background-color:#E93656 ;
+    cursor: pointer;
+}
+.about--image{
+    width: 100%;
+}
+
