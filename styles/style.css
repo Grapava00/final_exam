@@ -134,7 +134,9 @@ color:#B3B3B3;
 }
 
 /* about-section-container */
-
+.about-section{
+    margin-bottom: 100px;
+}
 .about-container{
     padding-top: 135px;
     max-width: 1367px;
@@ -142,7 +144,7 @@ color:#B3B3B3;
     margin:0 auto;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
     align-items: center;
 }
 /* about-content*/
@@ -151,6 +153,11 @@ color:#B3B3B3;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap-reverse;
 }
 .about--description h2{
     font-size:40px ;
@@ -223,10 +230,8 @@ h3 span{
 .about--facebook{
    display: inline-block;
    padding: 15px;
-   /* background-color: red; */
 }
 .about--github{
     display: inline-block;
    padding: 15px;
-   /* background-color: red; */
 }

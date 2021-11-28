@@ -19,4 +19,7 @@
         flex-wrap: wrap;
         justify-content: center;
     }
+    .about--progress-icons{
+        margin-top: 50px;
+    }
 }
