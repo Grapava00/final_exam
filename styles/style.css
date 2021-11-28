@@ -137,11 +137,12 @@ color:#B3B3B3;
 
 .about-container{
     padding-top: 135px;
-    max-width: 1200px;
+    max-width: 1367px;
     width: 100%;
     margin:0 auto;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap-reverse;
     align-items: center;
 }
 /* about-content*/
