@@ -1,3 +1,8 @@
+@media(max-width:1175px){
+.about--progress-container{
+    margin-top: 30px;
+}
+}
 @media(max-width: 780px){
     .nav--item{
         font-size: 90px;
@@ -18,8 +23,5 @@
     .logo-container{
         flex-wrap: wrap;
         justify-content: center;
-    }
-    .about--progress-icons{
-        margin-top: 50px;
     }
 }

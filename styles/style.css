@@ -153,6 +153,7 @@ color:#B3B3B3;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+     margin: 0 auto ; 
 }
 .wrapper{
     display: flex;
@@ -197,6 +198,7 @@ color:#B3B3B3;
 }
 .about--progress-container{
     width: 300px;
+    /* margin-top: 30px; */
 }
 .about--progress{
     width: 100%;
