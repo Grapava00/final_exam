@@ -187,6 +187,10 @@ color:#B3B3B3;
     border: none;
     background-color:#E93656 ;
     cursor: pointer;
+    transition: .3s;
+}
+.about--btn:hover{
+    background-color: #f05c79;
 }
 .about--image{
     width: 100%;
@@ -198,7 +202,6 @@ color:#B3B3B3;
 }
 .about--progress-container{
     width: 300px;
-    /* margin-top: 30px; */
 }
 .about--progress{
     width: 100%;
@@ -225,15 +228,65 @@ h3 span{
 }
 
 /* about-icons */
-
 .about--icons{
     margin-top: 40px;
 }
-.about--facebook{
-   display: inline-block;
-   padding: 15px;
+.fab{
+    padding: 10px;
 }
-.about--github{
-    display: inline-block;
-   padding: 15px;
+.fab:hover {
+    color: white;
+    background-color: #15263E;
+    
+}
+
+/* contact - information */
+.contact-info{
+    background-color: #131A36;
+    width: 100%;
+    min-height: 210px;
+    margin:100px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.contact-flex{
+    display: flex;
+    margin-right: 40px;
+}
+.flex-contact-item{
+    display: flex;
+    flex-direction: column;
+}
+.icon-style{
+    margin-right: 40px;
+    padding: 26px 30.01px 30px 30px;
+    background-color: #131A36;
+    border: 2px dashed #FFFFFF;
+    border-radius: 50px;
+    color: white;
+}
+.icon-style:hover{
+    background-color: #E93656;
+    border: 2px solid #E93656;
+    cursor: pointer;
+}
+.mail--icon{
+    padding : 25px 24px 23px 23px;
+}
+.address--icon{
+    text-align: center;
+    padding: 25px 28px;
+}
+.contact-info h3{
+    font-size: 25px ;
+     font-family: 'GlacialIndifference-Bold';
+    color:#FFFFFF ;
+}
+.contact-info a{
+    font-size:14px ;
+    font-family: 'Muli';
+    color:#DFDFDF ;
+    margin-top: 15px;
 }
