@@ -184,13 +184,14 @@ color:#B3B3B3;
     font-family: 'GlacialIndifference-Bold';
     font-size:15px;
     color: white;
-    border: none;
+    border: 1px solid crimson;
     background-color:#E93656 ;
     cursor: pointer;
     transition: .3s;
 }
 .about--btn:hover{
-    background-color: #f05c79;
+    background-color: white;
+    color:black;
 }
 .about--image{
     width: 100%;
