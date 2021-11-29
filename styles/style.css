@@ -261,7 +261,7 @@ h3 span{
 }
 .icon-style{
     margin-right: 40px;
-    padding: 26px 30.01px 30px 30px;
+    
     background-color: #131A36;
     border: 2px dashed #FFFFFF;
     border-radius: 50px;
@@ -272,12 +272,15 @@ h3 span{
     border: 2px solid #E93656;
     cursor: pointer;
 }
+.tel--icon{
+padding: 25px 28px;
+}
 .mail--icon{
-    padding : 25px 24px 23px 23px;
+    padding : 25px 25px;
 }
 .address--icon{
     text-align: center;
-    padding: 25px 28px;
+    padding: 25px 29px;
 }
 .contact-info h3{
     font-size: 25px ;
