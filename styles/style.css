@@ -248,7 +248,7 @@ h3 span{
     background-color: #131A36;
     width: 100%;
     min-height: 210px;
-    margin:100px auto;
+    margin-top:100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -345,4 +345,85 @@ padding: 21px 30px;
     width: 100%;
     font-size:14px ;
     line-height: .5cm;
+}
+
+/* comment */
+.slideshow-container{
+    margin-top: 160px;
+    min-height: 570px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #131A36;
+}
+.mySlides{
+    display: none;
+}
+.click-button{
+    display: flex;
+    flex-direction: column;
+}
+.fa-square{
+    margin-bottom: 5px;
+    color: white;
+}
+.active, .fa-square:hover {
+  color: #E93656;
+  cursor: pointer;
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+  width: 60%;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.fade .txt-comment {
+    max-width: 497px;
+    margin-right: 60px;
+    color: #FFFFFF;
+    font-family: 'Roboto-Light';
+    font-size:15px ;
+    line-height: .8cm;
+}
+.avatar-girl{
+    padding: 10px 10px 1px 10px;
+    border-radius: 50%;
+    border: 2px dotted white;
+}
+.avatar{
+    border: 2px dotted white;
+    border-radius: 50%;
+    padding: 10px;
+}
+.about-avatar{
+    margin-left: 60px;
+}
+.fade img{
+    max-width: 140px;
+    width: 100%;
+}
+.about-avatar p{
+    color:#E93656;
+    font-family: 'Roboto-Regular';
+    font-size: 13px;
+    margin-bottom:9px ;
+}
+.about-avatar h3{
+    font-size:28px ;
+    font-family: 'GlacialIndifference-Bold';;
+    color: #FFFFFF;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
 }
