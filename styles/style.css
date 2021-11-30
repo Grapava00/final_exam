@@ -82,7 +82,9 @@ color:#B3B3B3;
 .nav--link:hover{
     color: #E93656;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 /* header-intro */
 .intro--img{
 	max-width: 250px;
@@ -262,7 +264,6 @@ h3 span{
 }
 .icon-style{
     margin-right: 40px;
-    
     background-color: #131A36;
     border: 2px dashed #FFFFFF;
     border-radius: 50px;
@@ -274,14 +275,14 @@ h3 span{
     cursor: pointer;
 }
 .tel--icon{
-padding: 26px 30px;
+padding: 21px 30px;
 }
 .mail--icon{
-    padding : 25px 25px;
+    padding : 20px 25px;
 }
 .address--icon{
     text-align: center;
-    padding: 25px 29px;
+    padding: 20px 29px;
 }
 .contact-info h3{
     font-size: 25px ;
