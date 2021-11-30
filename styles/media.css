@@ -31,6 +31,9 @@
    .contact-flex{
        margin-top: 15px;
    }
+   .fade{
+       flex-wrap: wrap-reverse;
+   }
 }
 @media(max-width: 570px){
     .intro--images{

@@ -369,18 +369,16 @@ padding: 21px 30px;
     color: white;
 }
 .active, .fa-square:hover {
-  color: #E93656;
-  cursor: pointer;
+   color: #E93656;
+   cursor: pointer;
 }
 .fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-  width: 60%;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
+   animation-name: fade;
+   animation-duration: 1.5s;
+   width: 60%;
+   align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
 }
 .fade .txt-comment {
     max-width: 497px;
@@ -388,7 +386,7 @@ padding: 21px 30px;
     color: #FFFFFF;
     font-family: 'Roboto-Light';
     font-size:15px ;
-    line-height: .8cm;
+    line-height: .8cm; 
 }
 .avatar-girl{
     padding: 10px 10px 1px 10px;
@@ -418,11 +416,6 @@ padding: 21px 30px;
     font-family: 'GlacialIndifference-Bold';;
     color: #FFFFFF;
 }
-@-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
