@@ -348,14 +348,17 @@ padding: 21px 30px;
 }
 
 /* comment */
+.slideshow{
+    background-color: #131A36;
+}
 .slideshow-container{
-    margin-top: 160px;
+    max-width: 1367px;
+    margin: 0 auto;
     min-height: 570px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
-    background-color: #131A36;
 }
 .mySlides{
     display: none;
@@ -375,14 +378,13 @@ padding: 21px 30px;
 .fade {
    animation-name: fade;
    animation-duration: 1.5s;
-   width: 60%;
+   width: 80%;
    align-items: center;
-   justify-content: center;
+   justify-content: space-evenly;
    flex-wrap: wrap;
 }
 .fade .txt-comment {
     max-width: 497px;
-    margin-right: 60px;
     color: #FFFFFF;
     font-family: 'Roboto-Light';
     font-size:15px ;
@@ -397,9 +399,6 @@ padding: 21px 30px;
     border: 2px dotted white;
     border-radius: 50%;
     padding: 10px;
-}
-.about-avatar{
-    margin-left: 60px;
 }
 .fade img{
     max-width: 140px;
