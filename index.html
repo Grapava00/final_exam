@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/font.css">
     <link rel="stylesheet" href="styles/media.css">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <title>Document</title>
 </head>
 
@@ -203,7 +203,7 @@
             </div>
             <div class="services--block">
                 <div class="services--heading">
-                    <i class="fad fa-books fa-2x"></i>
+                    <i class="fas fa-pen fa-2x"></i>
                     <h3>Unique Ideas</h3>
                 </div>
                 <div class="services--overlay">
@@ -213,7 +213,7 @@
             </div>
             <div class="services--block">
                 <div class="services--heading">
-                    <i class="fas fa-blanket fa-2x"></i>
+                    <i class="fas fa-signature fa-2x"></i>
                     <h3>Design Analysis</h3>
                 </div>
                 <div class="services--overlay">
@@ -294,10 +294,49 @@
                     </div>
                 </div>
                 <div class="click-button">
-                    <i class=" fal fa-square" onclick="currentSlide(1)"></i>
-                    <i class="fal fa-square" onclick="currentSlide(2)"></i>
-                    <i class="fal fa-square" onclick="currentSlide(3)"></i>
+                    <i class=" fal fa-square fa-1.5x" onclick="currentSlide(1)"></i>
+                    <i class="fal fa-square fa-1.5x" onclick="currentSlide(2)"></i>
+                    <i class="fal fa-square fa-1.5x" onclick="currentSlide(3)"></i>
                 </div>
+            </div>
+        </div>
+    </section>
+    <section class="projects">
+        <div class="projects-container">
+            <div class="nav-container">
+                <nav class="navbar">
+                    <ul class="navbar-ul">
+                        <li> <button class="btn active" onclick="filterSelection('all')">All</button></li>
+                        <li> <button class="btn" onclick="filterSelection('mockup')">Mockup</button></li>
+                        <li><button class="btn" onclick="filterSelection('psd')">PSD Design</button> </li>
+                        <li><button class="btn" onclick="filterSelection('logo')"> Logo</button></li>
+                        <li> <button class="btn" onclick="filterSelection('presentation')">presentation</button></li>
+                        <li> <button class="btn" onclick="filterSelection('icons')"> Icons</button></li>
+                        <li> <button class="btn" onclick="filterSelection('work')">Work ideas</button></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="projects-list">
+                <ul class="items">
+                    <li class="filterLi mockup">
+                        <img src="images/latest_projects/mockup.jpg" alt="img">
+                    </li>
+                    <li class="filterLi psd">
+                        <img src="images/latest_projects/psd.jpg" alt="img">
+                    </li>
+                    <li class="filterLi logo">
+                        <img src="images/latest_projects/logo.jpg" alt="img">
+                    </li>
+                    <li class="filterLi presentation">
+                        <img src="images/latest_projects/presentation.jpg" alt="img">
+                    </li>
+                    <li class="filterLi icons">
+                        <img src="images/latest_projects/icons.jpg" alt="img">
+                    </li>
+                    <li class="filterLi work">
+                        <img src="images/latest_projects/work-idea.jpg" alt="img">
+                    </li>
+                </ul>
             </div>
         </div>
     </section>
