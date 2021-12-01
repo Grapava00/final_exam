@@ -428,21 +428,18 @@ padding: 21px 30px;
 .projects-container{
     max-width: 1367px;
     width: 100%;
+    min-height: 700px;
     margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1fr 3fr;
-    grid-template-rows: 320px 320px;
-    grid-template-areas: 
-    "navigation project"
-    ". project"
-    ;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 .projects-list .items{
     max-width: 900px;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    grid-area: project;
+    justify-content: space-evenly;
 }
 .projects-list img{
     max-width: 300px;
@@ -458,7 +455,6 @@ padding: 21px 30px;
     width: 100%;
     min-height: 400px;
     background-color: #15263E;
-    grid-area: navigation;
     display: flex;
     justify-content: center;
     align-items: center;
