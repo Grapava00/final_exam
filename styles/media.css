@@ -34,6 +34,30 @@
    .fade{
        flex-wrap: wrap-reverse;
    }
+   .projects-container{
+    grid-template-columns: auto;
+   }
+   .projects-list .items{
+    justify-content: center;
+   }
+   .nav-container{
+       max-width: 608px;
+       width: 100%;
+   }
+   .navbar{
+       min-height: 100px;
+       width: 100%;
+       justify-content: center;
+       margin-bottom: 50px;
+   }
+   .navbar-ul{
+       flex-direction: row;
+       align-items: center;
+       width: 100%;
+   }
+   .navbar-ul li{
+       margin-bottom: 20px;
+   }
 }
 @media(max-width: 570px){
     .intro--images{
@@ -69,5 +93,13 @@
     }
     .about-avatar{
         margin: 10px auto;
+    }
+    .navbar-ul{
+        flex-direction: column;
+    }
+    .navbar{
+        max-width: 520px;
+        width: 80%;
+        margin: 0 auto 20px;
     }
 }

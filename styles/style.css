@@ -430,16 +430,14 @@ padding: 21px 30px;
     width: 100%;
     min-height: 700px;
     margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
 }
 .projects-list .items{
     max-width: 900px;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
 }
 .projects-list img{
     max-width: 300px;
@@ -452,15 +450,18 @@ padding: 21px 30px;
     margin: 0 auto;
 }
 .navbar{
-    width: 100%;
     min-height: 400px;
     background-color: #15263E;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
-.navbar-ul li{
-    margin-top: 20px;
+.navbar-ul{
+    min-height: 300px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 .navbar-ul .btn{
     border: none;
