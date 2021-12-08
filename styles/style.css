@@ -475,3 +475,65 @@ padding: 21px 30px;
 .show {
     display: block;
   }
+
+  /* articles section */
+.articles{
+    margin-top: 150px;
+}
+.articles-container{
+    max-width: 360px;
+    width: 100%;
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 70px;
+}
+.heading span{
+    color:#2ED279 ;
+    font-size: 13px;
+    font-family: 'GlacialIndifference-Bold';
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.heading h2{
+    color: #2E2E2E;
+    font-size: 40px;
+    font-family: 'GlacialIndifference-Bold';
+    text-transform: capitalize;
+}
+.article-container{
+    max-width: 340px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.article-company{
+    color:#888888 ;
+    font-size: 14px;
+    font-family: 'Muli';
+    margin: 60px 0 10px 0;
+}
+.article-profession{
+    color: #161616;
+    font-size: 25px;
+    font-family: 'GlacialIndifference-Bold';
+}
+.article-paragraph{
+    margin: 20px 0 120px 0;
+    color: #494949;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: 'Muli';
+}
+.time-container{
+    color: #E93656;
+    font-size: 20px;
+    font-family: 'GlacialIndifference-Regular';
+    margin-bottom: 30px;
+    padding: 10px 0;
+    text-align: center;
+    background-color: #15263E;
+}
