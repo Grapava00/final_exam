@@ -1,8 +1,4 @@
-@media(max-width:1175px){
-.about--progress-container{
-    margin-top: 30px;
-}
-}
+
 @media(max-width: 780px){
     .nav--item{
         font-size: 90px;
@@ -58,6 +54,9 @@
    .navbar-ul li{
        margin-bottom: 20px;
    }
+   .time-container, .gray-div{
+       display: none;
+   }
 }
 @media(max-width: 570px){
     .intro--images{
@@ -102,4 +101,32 @@
         width: 80%;
         margin: 0 auto 20px;
     }
+    
+    .article-container article{
+        justify-content: center;
+    }
+    .article-container{
+        margin-bottom: 30px;
+        border: 1px dotted crimson;
+        box-shadow: 1px 7px crimson;
+    }
+    article{
+        padding-top: 10px;
+        background:#DDDDDD;
+    }
+}
+@media(max-width:1175px){
+    .about--progress-container{
+        margin-top: 30px;
+    }
+}
+@media(max-width: 1900px){
+    .appear-tablet{
+       display: none;
+    }
+}
+@media(max-width:780px){
+    .appear-tablet{
+        display: block;
+     }
 }
