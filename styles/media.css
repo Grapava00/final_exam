@@ -114,10 +114,16 @@
         padding-top: 10px;
         background:#DDDDDD;
     }
+    .logos-container{
+        min-height: 600px;
+    }
 }
 @media(max-width:1175px){
     .about--progress-container{
         margin-top: 30px;
+    }
+    .logos-container{
+        max-height: 300px;
     }
 }
 @media(max-width: 1900px){
