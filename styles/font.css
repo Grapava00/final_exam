@@ -3,6 +3,10 @@
 	src: url('../fonts/ExtraBold.ttf');
 }
 @font-face{
+	font-family: 'Poppins-SemiBold';
+	src: url('../fonts/Poppins-SemiBold.ttf');
+}
+@font-face{
 	font-family: 'GlacialIndifference-Regular';
 	src: url('../fonts/GlacialIndifference-Regular.otf');
 }

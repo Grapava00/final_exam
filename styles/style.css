@@ -423,7 +423,7 @@ padding: 21px 30px;
 }
 .about-avatar h3{
     font-size:28px ;
-    font-family: 'GlacialIndifference-Bold';;
+    font-family: 'GlacialIndifference-Bold';
     color: #FFFFFF;
 }
 @keyframes fade {
@@ -434,6 +434,17 @@ padding: 21px 30px;
 /* latest projects */
 .projects{
     margin-top: 140px;
+}
+.heading-project{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto 55px;
+}
+.heading-project h2{
+    text-align: center;
+    color: #2E2E2E;
+    font-size: 70px;
+    font-family: 'GlacialIndifference-Bold';
 }
 .projects-container{
     max-width: 1367px;
@@ -514,7 +525,7 @@ padding: 21px 30px;
 }
 .heading h2{
     color: #2E2E2E;
-    font-size: 40px;
+    font-size: 70px;
     font-family: 'GlacialIndifference-Bold';
     text-transform: capitalize;
 }
@@ -598,6 +609,7 @@ padding: 21px 30px;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0 auto;
 }
 .partner-txt{
     opacity: 0;
@@ -616,6 +628,14 @@ padding: 21px 30px;
 }
 .partner-txt h3{
     margin-bottom: 10px;
+    font-size: 16px;
+   font-family: 'Poppins-SemiBold';
+}
+.partner-txt p{
+    color: #626262;
+    line-height: 1.5;
+    font-size: 13px;
+    font-family: 'Roboto-Light';
 }
 .partner-txt:hover{
     opacity: 1;
@@ -672,10 +692,7 @@ padding: 21px 30px;
     width: 100%;
     min-height: 50px;
 }
-.input{
-    max-width: 290px;
-    width: 100%;
-}
+
 input[type="text"]{
     width: 100%;
     height: 100%;
