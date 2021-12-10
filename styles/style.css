@@ -583,7 +583,7 @@ padding: 21px 30px;
     margin-bottom: 150px;
 }
 .partners-container{
-    max-width: 1460px;
+    max-width: 1200px;
     width: 100%;
     margin: 0 auto;
     display:flex;
@@ -591,9 +591,9 @@ padding: 21px 30px;
     flex-direction: column;
 }
 .partner-section{
-    max-width: 270px;
+    max-width: 230px;
     width: 100%;
-    max-height: 170px;
+    max-height: 190px;
     position: relative;
     display: flex;
     align-items: center;
