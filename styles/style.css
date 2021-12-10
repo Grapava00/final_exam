@@ -496,6 +496,44 @@ padding: 21px 30px;
 .show {
     display: block;
   }
+  .relative{
+     position: relative;
+  }
+  .overlay-projects{
+      position: absolute;
+      content: "";
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color:#000000;
+      opacity: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    
+  }
+  .overlay-projects:hover{
+      opacity: 1;
+  }
+  .overlay-projects p{
+      color: #FFFFFF;
+      font-size: 23px;
+      font-family: 'GlacialIndifference-Bold';
+      text-transform: capitalize;
+  }
+  .overlay-projects .time-span{
+      color:#DDDDDD ;
+      margin: 17px 0 6px;
+      font-family: 'Muli';
+      font-size:11px ;
+  }
+  .overlay-projects .svg{
+      padding: 19px 18px 15px;
+      border-radius: 50px;
+      border: 1px solid red;
+  }
 
   /* articles section */
   .articles{
