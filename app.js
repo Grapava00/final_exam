@@ -132,3 +132,50 @@ for (let i = 0; i < btns.length; i++) {
 		this.className += " active";
 	});
 }
+
+
+// send form
+
+const myForm=document.querySelector("#form");
+
+myForm.addEventListener("submit", function(e){
+	e.preventDefault();
+	e.stopPropagation();
+
+	const formData=new FormData(this);
+	const searchParams= new URLSearchParams();
+
+	for(const pair of formData){
+		searchParams.append(pair[0],pair[1],pair[2], pair[3])
+	}
+
+	fetch("http://api.kesho.me/v1/user-test/contact", {
+		method:'post',
+		body: searchParams
+	}).then(function(response){
+		return response.text();
+	}).then(function(text){
+		console.log(text)
+	}).catch(function(error){
+		console.log(error)
+	})
+})
+
+
+
+
+// modal
+let modal = document.getElementById("myModal");
+let btn = document.getElementById("sub-btn");
+let span = document.getElementsByClassName("close")[0];
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+span.onclick = function() {
+  modal.style.display = "none";
+}
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}

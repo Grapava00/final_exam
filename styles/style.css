@@ -718,6 +718,39 @@ textarea{
     color: white;
 }
 
+/* modal */
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1;
+  left: 25%;
+  top: 55%;
+  width: 50%;
+  height: 100%; 
+  overflow: auto; 
+}
+.modal-content {
+  margin: 15% auto; 
+  padding: 20px;
+  width: 100%; 
+}
+.modal-content p{
+    color: white;
+    font-size: 20px;
+}
+.close {
+  color: white;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 /* roca section */
 .footer-roca{
     background-color: #282828;

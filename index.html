@@ -707,25 +707,25 @@
     <footer>
         <div class="footer-container">
             <div class="form-container">
-                <form class="form" action="adress">
+                <form id="form" class="form" action="http://api.kesho.me/v1/user-test/contact" method="post">
                     <div class="heading-form">
                         <h3>CONTACT US</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                     </div>
                     <div class="form-top">
                         <div class="input-field">
-                            <label for="text">
-                                <input type="text" placeholder="Your Name*" required>
+                            <label for="name">
+                                <input id="name" type="text" name="name" placeholder="Your Name*" required>
                             </label>
                         </div>
                         <div class="input-field">
                             <label for="email">
-                                <input type="email" placeholder="Email Address*" required>
+                                <input id="email" type="email" name="email" placeholder="Email Address*" required>
                             </label>
                         </div>
                         <div class="input-field">
-                            <label for="text">
-                                <input type="text" placeholder="Your Name*" required>
+                            <label for="address">
+                                <input id="address" type="text" name="address" placeholder="Your Website*" required>
                             </label>
                         </div>
                     </div>
@@ -733,7 +733,14 @@
                         <textarea></textarea>
                     </div>
                     <div class="send-btn">
-                        <button type="button" class="send-style">SEND MESSAGE</button>
+                        <button type="submit" class="send-style" id="sub-btn">SEND MESSAGE</button>
+                        <div id="myModal" class="modal">
+                            <div class="modal-content">
+                                <span class="close">&times;</span>
+                                <p>"Thank you for getting in touch! We appreciate you contacting us."</p>
+                            </div>
+
+                        </div>
                     </div>
                 </form>
             </div>
