@@ -275,14 +275,14 @@ h3 span{
     cursor: pointer;
 }
 .tel--icon{
-padding: 21px 30px;
+padding: 21px 30px 19px;
 }
 .mail--icon{
     padding : 20px 25px;
 }
 .address--icon{
     text-align: center;
-    padding: 20px 29px;
+    padding: 20px 29px 18px;
 }
 .contact-info h3{
     font-size: 25px ;

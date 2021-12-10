@@ -117,6 +117,18 @@
     .logos-container{
         min-height: 600px;
     }
+    .heading-project h2{
+        font-size: 40px;
+    }
+    .heading h2{
+        font-size: 40px;
+    }
+    .contact-info{
+        justify-content: flex-end;
+    }
+    .contact-flex{
+        margin-right: 30px;
+    }
 }
 @media(max-width:1175px){
     .about--progress-container{
