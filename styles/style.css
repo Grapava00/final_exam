@@ -717,3 +717,61 @@ textarea{
     background-color: #E93656;
     color: white;
 }
+
+/* roca section */
+.footer-roca{
+    background-color: #282828;
+    min-height: 490px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.roca-container{
+    max-width: 700px;
+    width: 100%;
+}
+.roca{
+    color:#FFFFFF ;
+    font-size: 55.42px;
+    font-family: 'Poppins-ExtraBold';
+    text-align: center;
+}
+.roca span{
+    color: crimson;
+    font-family: monospace;
+    font-size: 45.72px;
+}
+.roca-container p {
+    color: #A5A5A5;
+    font-size: 17px;
+    font-family: 'Roboto-Regular';
+    line-height: 1.5;
+    text-align: center;
+    margin: 22px 0 40px;
+}
+.footer-icons{
+    max-width: 80px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* rights */
+.rights{
+    background-color: #171717;
+    min-height: 82px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rights-container{
+    max-width: 550px;
+    width: 100%;
+}
+.rights-container p{
+    color: #A0A8B7;
+    font-size: 15px;
+    font-family: 'Muli';
+}
+.rights-container span{
+    color: #FFFFFF;
+}
